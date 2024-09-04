@@ -1,0 +1,397 @@
+https://code.visualstudio.com/download (Install)
+https://nodejs.org/en/ (Install)
+https://git-scm.com/downloads (Install)
+
+
+https://github.com/ (Create Account)
+https://github.com/Aakashdeveloper (Follow)
+https://www.youtube.com/developerfunnel (Subscribe)
+https://stackoverflow.com/ (Create Account)
+https://www.linkedin.com/ (Create Account)
+
+https://www.postman.com/ (install)
+
+// Add to chrome
+https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
+
+/// extension
+> Visual studio code
+* vscode-icons
+* spell check
+* githistory
+* git lens
+
+7 Live application
+1 Zomato > Trainer
+You will create
+1 Your Choice >  40 Marks
+1 Profile Website 10 Marks
+4 Mini website 60% already Done + 40% You to complete 5 marks
+8-10 Task  > 40 Marks
+5-6 Assignment which will be covered in class 5 Marks
+
+200 Marks
+
+100 Marks > Interview 
+50 Marks > Question
+50 Marks > Class Perforamce
+
+
+HTML > Raw Design
+CSS > Look Feel
+Bootstrap > Responsive Design
+JavaScript > Logics
+NodeJs+Express (Backend logics)
+MongoDb > Database (storage)
+React   > Frontend
+Deployment
+
+//////////////////////////
+html> Main tag wrapper
+head> Use for linking css, js and only title is visible to user
+body> All the content visible to user
+
+blockLevel
+> Always start from new line 
+> occupies the whole width of the screen
+> p div h1
+
+inline
+> Always start from same line
+> Only occupies width according to content
+> span img a
+
+
+div
+> divison
+> block level element
+> help to divide your page
+
+href > hyper ref
+src> source
+
+https://www.google.com/maps
+
+/////////////
+Profile Website
+/////////////
+Your Name
+Your Image
+Some thing about u
+Your skills
+hobbies
+google map
+footer
+social link
+
+27 Feb
+
+
+////////////////////////////////
+ul > unordered List
+ol > ordered List
+dl > descriptive list
+
+
+//////////
+inline
+styletag
+stylesheet
+
+
+inline > styletag > stylesheet
+
+inline
+{
+    color:red,
+    font-siZe:20px,
+    height:50px
+}
+
+styletag
+{
+    color:orange,
+    width:70px;
+    border:2px solid black
+}
+
+stylesheet
+{
+    height:80px
+    width:90px;
+    Z-index:1
+}
+
+{
+    color:red,
+    font-siZe:20px,
+    height:50px;
+    width:70px;
+    border:2px solid black;
+    Z-index:1
+}
+
+/////////
+TagName
+> Target by tag but whatever tag we target all the same tags of one will have same property
+> Only use for unique tags
+
+id
+> Use only for trageting something unique
+> #
+
+Class
+> Use to target group of element with same property
+> .
+
+solid
+dotted
+dashed
+double
+groove
+
+https://imgbb.com/
+
+position:absolute
+position:relative
+
+bootstrap3
+xs < 768px
+sm > 768px
+md > 992px
+lg > 1200px
+
+bootstrap4
+col- <576px
+sm > 576px
+md > 768px;
+lg> 992px;
+xl > 1200px
+
+
+bootstrap5
+col- <576px
+sm > 576px
+md > 768px;
+lg> 992px;
+xl > 1200px
+xxl > 1400px
+
+Mathopt
+array
+loop
+mapfilter
+object
+geolocation
+///////////////
+objectfunction
+objectthis
+classes
+clousers
+hoisting
+formvalidation
+dynamicdrop
+
+
+eval()
+
+
+
+//////
+Ecma Script
+> Es5
+> Es6
+
+// Data types
+// let const
+// opertions
+// String opt
+// Array opt
+// ifelse
+// function
+// coupons
+// dom (light dark)
+// map filter
+// object
+// geolocation
+
+////
+nodejs
+/////
+
+Single threaded Async Non-blocking I/O
+
+npm
+> Node Package manager
+(163450)
+////
+JSON
+> JavaScript Object notation
+(Way to represent data)
+(key value pair, support unstreuctred)
+[
+    {
+        "name":"Amit",
+        "city":"Amsterdam"
+    },
+    {
+        "name":"Nikita",
+        "city":"Pune",
+        "subject":"Node"
+    }
+]
+/////////////////
+package.json
+> Entry point to the app
+> First file that run in the app
+> It contains all the package name and version
+> It contains meta data (name,version,description)
+> It contains Script(start,test,build)
+
+
+////////
+Step to generate package.json
+* NodeJs must be installed in laptop
+> go inside the folder using terminal/cmd
+> npm init
+> Answer all question
+> type "yes"
+
+Step to install packages
+> go inside the folder using terminal/cmd
+> npm i packagename/npm install packagename
+
+//es5
+function add(a,b){
+    return a+b
+}
+
+add(1,2)
+
+//es6
+const add = (a,b) => {
+    return a+b
+}
+
+//
+Local dependency 
+> local to the folder
+> used inside the same folder only
+> npm i package name
+
+Global dependency 
+> Install in the C drive
+> Mainly use to start, build the app
+
+> open cmd as adminstrator
+> npm i -g package name
+
+nodemon
+
+
+C > Create (Post)
+R > Read   (Get)
+U > Update (Put)
+D > Delete (Delete)
+
+
+///
+params
+> What we pass after /
+> If we use param we need to define it
+> if define complousry to pass
+> req.params.parametername
+
+queryParams
+> What we pass after ?
+> No need to define
+> not complousry to pass
+> req.query.queryname
+
+cors > cross origin resource sharing;
+
+9120 >>>> 3000
+
+https://render.com/
+> new
+    > Web Service
+        > Select github repo
+        > Build Command : npm install
+        > Start Command : node app.js
+            > create web service
+
+React> Single page application
+Lib is frontend library which help to make Single page application
+using component based structre
+
+
+>>>>>
+> Go inside the folder where you want new app
+    > npx create-react-app appname
+
+//// To Run the App
+> Go inside the app folder
+> npm start
+
+
+State
+> Act like a local variable
+> Every component can have its own state
+> We can update the value of the state
+> Any Data interaction will happen through state
+
+Props
+> Help to transfer the date between 2 nested component
+
+
+
+
+(get) cityname >           http://3.17.216.66:4000/location
+(get) restwrtcity >        http://3.17.216.66:4000/restaurant?stateId=1
+(get) quickSearch>         http://3.17.216.66:4000/quicksearch
+
+(get) onbasisofMeal >      http://3.17.216.66:4000/restaurant?mealtype_id=
+(get) cuisinefilter >      http://3.17.216.66:4000/filter/4?cuisine=1
+(get) costfilter >         http://3.17.216.66:4000/filter/1?hcost=1000&lcost=500
+
+(get) restdetails >        http://3.17.216.66:4000/details/1
+(get) menu >               http://3.17.216.66:4000/menu/1
+
+(post) orderspage >        http://3.17.216.66:4000/menuItem
+                           body [1,4,5]
+(post)placeOrder >        
+
+(get) allorder>            
+       
+(get) restaurants>         http://3.17.216.66:4000/restaurants
+
+
+// static api
+> open cmd as admin
+> npm i -g json-server
+
+> json-server --watch orders.json --port 8899
+
+
+/////////////
+/******GetAllUser*****/
+(GET)> http://3.17.216.66:5000/api/auth/users
+
+/******Register*****/
+(POST)> http://3.17.216.66:5000/api/auth/register
+(body) => {"name":"Aakash", "email":"aa@gmail.com","password":"12345678","phone":343432,role?":"user"}
+
+/******Login*****/
+(POST) => http://3.17.216.66:5000/api/auth/login
+(body)  => {"email":"aa@gmail.com","password":"12345678"}
+(response)=> {auth:true,token:'dgsdg'}
+
+/******UserInfo*****/
+(GET) => http://3.17.216.66:5000/api/auth/userinfo
+(Header) => {'x-access-token':'token value from login'}
+
+npm run build
+
+
+https://app.netlify.com/
+
